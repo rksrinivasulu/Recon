@@ -1,0 +1,11 @@
+Dec-13-2017 12:09:58 INFO  bcgi.timer.DistributorReconcillationsTimer loadTimerConfigurations.93  -  wakeUpDurationStr =====DistributorReConcillation== from data base 600 secs
+Dec-13-2017 12:09:58 INFO  bcgi.timer.PMTimerTaskManager startTimer.184  - Scheduling Timer : TMR_AUTO_DISTRIBUTOR_RECONCILLATIONS with intial delay 60 seconds and wakeup duration 600seconds
+Dec-13-2017 12:09:58 INFO  bcgi.timer.PMTimerTaskManager startTimer.187  - Scheduling Timer TMR_AUTO_DISTRIBUTOR_RECONCILLATIONSCompleted
+Dec-13-2017 12:10:58 INFO  reconciliation.workflow.DistributorReconcilationTimerTask run.21  - DistributorReconcilationTimerTask Started......
+Dec-13-2017 12:10:58 ERROR bcgi.dao.DBConnection getConnection.296  - Exception in DBConnection:getDirectMXDBConnection()=>java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+The Connection descriptor used by the client was:
+192.168.149.152:1521:XIUSRAC
+
+Dec-13-2017 12:10:58 INFO  reconciliation.workflow.DistributorReconcilationTimerTask run.37  - Error occured While processing DistributorReconcilationTimerTasknull
+Dec-13-2017 12:10:58 INFO  reconciliation.workflow.DistributorReconcilationTimerTask run.44  - DistributorReconcilationTimerTask Completed......
